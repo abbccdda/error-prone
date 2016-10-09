@@ -5,4 +5,8 @@ install:
 
 # test_script:
 #   - mvn test
-# build: off
+build: off
+
+after_build:
+  - util/publish-snapshot-on-commit.sh
+  - util/generate-latest-docs.sh
