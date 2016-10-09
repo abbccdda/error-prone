@@ -12,14 +12,14 @@ notifications:
 
 
 cache:
-  - '%HOME%\.m2' 
+  - '%HOMEPATH%\.m2' 
 
 
 # test_script:
 #   - mvn test
 # after_build:
-build_script:
-  - util/publish-snapshot-on-commit.bat
+# build_script:
+#   - util/publish-snapshot-on-commit.bat
 #   - util/publish-snapshot-on-commit.sh
 #   - util/generate-latest-docs.sh
 # build: off
