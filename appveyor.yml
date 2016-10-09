@@ -11,12 +11,15 @@ notifications:
 
 build: off
 
+cache:
+  - '%HOME%\.m2' 
+
 
 # test_script:
 #   - mvn test
 # build: off
 # after_build:
-# build_script:
-
+build_script:
+  - util/forwin.bat
 #   - util/publish-snapshot-on-commit.sh
 #   - util/generate-latest-docs.sh
