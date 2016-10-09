@@ -19,7 +19,7 @@ cache:
 # build: off
 # after_build:
 build_script:
-  - util/forwin.bat
+  - util/publish-snapshot-on-commit.bat
 #   - util/publish-snapshot-on-commit.sh
 #   - util/generate-latest-docs.sh
 build: off
