@@ -7,6 +7,9 @@ jdk:
 # use travis-ci docker based infrastructure
 sudo: false
 
+install:
+  - echo $HOME
+
 # https://github.com/travis-ci/travis-ci/issues/3259#issuecomment-130860338
 addons:
   apt:
