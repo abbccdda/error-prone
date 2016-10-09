@@ -9,7 +9,6 @@ notifications:
     on_build_success: false  
     on_build_failure: true
 
-build: off
 
 cache:
   - '%HOME%\.m2' 
@@ -23,3 +22,4 @@ build_script:
   - util/forwin.bat
 #   - util/publish-snapshot-on-commit.sh
 #   - util/generate-latest-docs.sh
+build: off
