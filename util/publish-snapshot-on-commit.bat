@@ -1,4 +1,4 @@
-ECHO hello world
+ECHO %HOME%
 
 ECHO -e "Publishing maven snapshot...\n"
 
